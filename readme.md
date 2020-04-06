@@ -5,7 +5,7 @@
 먼저 당연히 icode에 회원가입을 하신 다음 돈을 넣어두셔야 합니다.    
 http://www.icodekorea.com/ 이곳에서 회원가입 하시고, 만원쯤 넣어두시면 아마 NAS 고장날때까지 쓸겁니다.    
 SMS provider 를 추가한 후 다음과 같이 입력합니다. cp= 부분 빼고는 그대로 복붙하시면 됩니다    
-SMS URL= http://www.icodekorea.com/res/sms.php?msg=Hello World&id=myid&pw=mypw&hplist=01012345678&cp=01090123456
+SMS URL= http://www.icodekorea.com/res/sms.php?msg=Hello World&id=myid&pw=mypw&hplist=01012345678&cp=01090123456    
 (cp=01090123456 부분은 등록된 발신 전화번호를 적어주셔야 합니다. 제대로 입력 안하시면 진행 안되니 주의하시길 바랍니다.)     
 다음 창에서 위 get요청의 상세 사항에 대해 물어보는데, 다음과 같이 선택해 주시면 됩니다.    
     
