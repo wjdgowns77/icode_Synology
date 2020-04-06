@@ -6,6 +6,7 @@
 http://www.icodekorea.com/ 이곳에서 회원가입 하시고, 만원쯤 넣어두시면 아마 NAS 고장날때까지 쓸겁니다.    
 SMS provider 를 추가한 후 다음과 같이 입력합니다. cp= 부분 빼고는 그대로 복붙하시면 됩니다    
 SMS URL= http://www.icodekorea.com/res/sms.php?msg=Hello World&id=myid&pw=mypw&hplist=01012345678&cp=01090123456    
+![메시지0.PNG](https://github.com/wjdgowns77/icode_Synology/blob/master/메시지0.PNG)    
 (cp=01090123456 부분은 등록된 발신 전화번호를 적어주셔야 합니다. 제대로 입력 안하시면 진행 안되니 주의하시길 바랍니다.)     
 다음 창에서 위 get요청의 상세 사항에 대해 물어보는데, 다음과 같이 선택해 주시면 됩니다.    
     
@@ -19,6 +20,7 @@ cp=내전화번호	=> Other
 Apply 하시고, 선택사항이 적용되면, 실제 정보를 입력해 줍니다.     
 Username에는 icode ID, Password에는 icode PW, Confirm Password에는 icode PW 다시 입력해 주세요.       
 Primary Phone number에는 휴대폰 번호를 입력해 주시면 되는데, 첫번째 란 비워두고 두번째 란에 010, 세번째 란에 나머지 입력하시면 됩니다.    
+![메시지2.PNG](https://github.com/wjdgowns77/icode_Synology/blob/master/메시지2.PNG)    
     
 Send a test SMS message 해보시고, 약 10초후 휴대폰에서 메시지가 잘 도착하면 어플라이 하시면 됩니다.    
 잘 모르시겠다면, 언재나 그렇듯이 이메일 보내시면 도와드립니다 :)
