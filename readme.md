@@ -14,6 +14,7 @@ id=myid		=> Username
 pw=mypw		=> Password    
 hplist=01012345678=>Phone number    
 cp=내전화번호	=> Other    
+![메시지1.PNG](https://github.com/wjdgowns77/icode_Synology/blob/master/메시지1.PNG)    
     
 Apply 하시고, 선택사항이 적용되면, 실제 정보를 입력해 줍니다.     
 Username에는 icode ID, Password에는 icode PW, Confirm Password에는 icode PW 다시 입력해 주세요.       
