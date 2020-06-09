@@ -4,10 +4,12 @@
 ## 하는방법.
 먼저 당연히 icode에 회원가입을 하신 다음 돈을 넣어두셔야 합니다.    
 http://www.icodekorea.com/ 이곳에서 회원가입 하시고, 만원쯤 넣어두시면 아마 NAS 고장날때까지 쓸겁니다.    
+발신번호 등록도 해두셔야 합니다. 등록한 발신번호는 아래에 입력해야 하므로 잊으시면 안됩니다!!     
+        
 SMS provider 를 추가한 후 다음과 같이 입력합니다. cp= 부분 빼고는 그대로 복붙하시면 됩니다    
 SMS URL= http://www.icodekorea.com/res/sms.php?msg=Hello World&id=myid&pw=mypw&hplist=01012345678&cp=01090123456    
 ![메시지0.PNG](https://github.com/wjdgowns77/icode_Synology/blob/master/메시지0.PNG)    
-(cp=01090123456 부분은 등록된 발신 전화번호를 적어주셔야 합니다. 제대로 입력 안하시면 진행 안되니 주의하시길 바랍니다.)     
+(cp=01090123456 부분은 등록된 발신 전화번호를 적어주셔야 합니다. 제대로 입력 안하시면 진행은 되겠지만 문자가 안오니 주의하시길 바랍니다.)     
 Next를 누르면 다음 창에서 위 get요청의 상세 사항에 대해 물어보는데, 다음과 같이 선택해 주시면 됩니다.    
     
 msg=Hello World	=> Message conetent    
@@ -23,4 +25,4 @@ Primary Phone number에는 휴대폰 번호를 입력해 주시면 되는데, �
 ![메시지2.PNG](https://github.com/wjdgowns77/icode_Synology/blob/master/메시지2.PNG)    
     
 Send a test SMS message 해보시고, 약 10초후 휴대폰에서 메시지가 잘 도착하면 어플라이 하시면 됩니다.    
-잘 모르시겠다면, 언재나 그렇듯이 이메일 보내시면 도와드립니다 :)
+잘 모르시겠다면, 언재나 그렇듯이 이메일 보내시면 도와드립니다 :) admin@nonaver.com
